@@ -1102,6 +1102,43 @@ body:hover .cursor { opacity: 1; }
   font-weight: 600;
   color: var(--gold-bright);
 }
+.party-slots, .party-rules {
+  background: linear-gradient(135deg, #1A1208, #231809);
+  border: 1px solid rgba(200, 150, 12, 0.15);
+  border-radius: var(--radius-md);
+  padding: 32px 36px;
+  margin-top: 24px;
+}
+.party-slots h4, .party-rules h4 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.party-rules ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.party-rules ul li {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+}
+.party-rules ul li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--gold-bright);
+  font-size: 0.7rem;
+  top: 4px;
+}
 
 /* ============================================
    POLICIES
