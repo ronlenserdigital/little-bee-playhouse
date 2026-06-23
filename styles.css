@@ -178,11 +178,13 @@ body:hover .cursor { opacity: 1; }
 .nav-logo {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 .logo-img {
   height: 64px;
   width: auto;
   background: transparent;
+  display: block;
 }
 .nav-links {
   display: flex;
