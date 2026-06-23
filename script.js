@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothScroll();
   initFAQ();
   initExtraForms();
-}
+});
 
 // ─── Event & Newsletter Forms ────────────────
 function initExtraForms() {
@@ -65,26 +65,6 @@ function initExtraForms() {
       }
     });
   });
-});
-
-// ─── Preloader ───────────────────────────────
-function initPreloader() {
-  const preloader = document.getElementById('preloader');
-  if (!preloader) return;
-
-  const hide = () => {
-    preloader.classList.add('hidden');
-    document.body.style.overflow = 'visible';
-  };
-
-  // Hide shortly after DOM is ready, regardless of other resources
-  setTimeout(hide, 800);
-
-  // Also hide on full load in case it fires first
-  window.addEventListener('load', () => setTimeout(hide, 400));
-
-  // Hard fallback
-  setTimeout(hide, 2500);
 }
 
 // ─── Custom Cursor ───────────────────────────
