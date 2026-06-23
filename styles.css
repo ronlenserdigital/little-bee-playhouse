@@ -179,7 +179,7 @@ body:hover .cursor { opacity: 1; }
   display: flex;
   align-items: center;
   height: 100%;
-  margin-left: 40px;
+  margin-left: 120px;
 }
 .logo-img {
   height: 64px;
