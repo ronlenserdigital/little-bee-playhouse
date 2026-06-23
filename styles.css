@@ -187,8 +187,13 @@ body:hover .cursor { opacity: 1; }
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 22px;
   list-style: none;
+  margin-left: auto;
+}
+/* Push the waiver + book buttons slightly away from the text links */
+.nav-links li:has(.nav-waiver-link) {
+  margin-left: 12px;
 }
 .nav-link {
   font-family: var(--font-display);
