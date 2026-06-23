@@ -2199,3 +2199,43 @@ a.contact-item:hover { color: var(--gold-light); }
   .btn-event { cursor: pointer; }
 }
 
+
+/* ============================================
+   SPONSOR LOGOS
+   ============================================ */
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 28px;
+}
+.sponsor-logo {
+  background: #ffffff;
+  border-radius: var(--radius-md);
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  min-height: 120px;
+  transition: var(--transition);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+.sponsor-logo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(200, 150, 12, 0.25);
+}
+.sponsor-logo img {
+  max-width: 180px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  .sponsor-logos { gap: 20px; }
+  .sponsor-logo { min-width: 140px; min-height: 90px; padding: 18px 22px; }
+  .sponsor-logo img { max-width: 130px; max-height: 70px; }
+}
