@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // ─── Event & Newsletter Forms ────────────────
 function initExtraForms() {
   const forms = [
-    { id: 'eventForm', btn: 'eventSubmitBtn', success: 'eventFormSuccess', label: 'Reserve Spot 🐝' },
     { id: 'newsletterForm', btn: 'newsletterBtn', success: 'newsletterSuccess', label: 'Subscribe 🍯' },
   ];
 
