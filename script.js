@@ -180,7 +180,7 @@ function initCountdown() {
           <div class="countdown-content">
             <p class="countdown-label">🎉 We Are Open! Come Play!</p>
             <p style="font-family: var(--font-display); font-size: 1.1rem; color: var(--gold-light);">
-              5483-B Sunset Blvd, Lexington, SC · Mon–Sat 9 AM – 6 PM
+              5483-B Sunset Blvd, Lexington, SC · Mon–Sat 10 AM–12 PM &amp; 1–6 PM
             </p>
           </div>`;
       }
